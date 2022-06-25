@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    height: 100vh;
+    background-image: url('../img/background.jpg');
+    background-color: rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    color: #CBE16B;
+}
+
+main > div {
+    padding: 25px 0px 25px 0px;
+    margin: auto;
+    max-width: 800px;
+}
+
+main > div > div {
+    padding: 16px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+a.btn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, #28A745 0%, #165c26 100%);
+    text-decoration: none;
+}
+
+span.cta1 {
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: #000000 0px 1px 0px;
+}
+
+span.cta2 {
+    color: #F5E051;
+    font-family: 'Cabin', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 700;
+    text-shadow: #000000 0px 1px 0px;
+    letter-spacing: 1px;
+}
+
+footer {
+    color: #FFFFFF;
+    background-color: #343a40;
+}
+
+footer div {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
