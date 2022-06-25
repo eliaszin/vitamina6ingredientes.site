@@ -35,7 +35,7 @@
                 <h1>Rotina Diária Cria Tecido <b>ANTI GORDURA</b> No Corpo</h1>
                 <div id="vid_62b63c8f47ce1b000945cb99" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_62b63c8f47ce1b000945cb99" src="https://images.converteai.net/1432cd0c-4a3d-4bf3-9022-ea140b16910c/players/62b63c8f47ce1b000945cb99/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_62b63c8f47ce1b000945cb99" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_62b63c8f47ce1b000945cb99">var s=document.createElement("script");s.src="https://scripts.converteai.net/1432cd0c-4a3d-4bf3-9022-ea140b16910c/players/62b63c8f47ce1b000945cb99/player.js",s.async=!0,document.head.appendChild(s);</script>
             </div>
-            <div class="cta">
+            <div id="cta" class="dnone">
                 <a class="btn" href="https://pay.kiwify.com.br/AFYhzaY">
                 <span class="cta1">QUERO OBTER ACESSO!</span>
                 <span class="cta2">(atenção: vagas limitadas)</span>
@@ -55,11 +55,8 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-        $('.cta').hide();
-        setTimeout(function() {
-        $('.cta').show();
-        }, 1701000);
+    <script type="text/javascript">
+        setTimeout(() => {document.getElementById("cta").classList.remove("dnone"); }, 5000); // temporização da Call to Action (em milissegundos)
     </script>
 </body>
 </html>
